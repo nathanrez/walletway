@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/saldoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo Atual: R$ 0,00"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botão Adicionar Transação -->
+    <Button
+        android:id="@+id/adicionarTransacaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Transação"
+        android:layout_centerInParent="true" />
+
+    <!-- Botão Adicionar (Botão Extra) -->
+    <Button
+        android:id="@+id/botaoAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botão Adicionar"
+        android:layout_below="@id/adicionarTransacaoButton"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
